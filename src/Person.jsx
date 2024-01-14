@@ -13,7 +13,7 @@ export default function Person ({onclick, dat, handleDelete}){
   `;
   const Li = styled.li`
   list-style: none;
-  margin: 5px;
+  margin: 5.5px;
 
   `;
   const Btn = styled.button`
