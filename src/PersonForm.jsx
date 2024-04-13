@@ -1,6 +1,7 @@
 import { useState } from "react";
 import styled from "styled-components";
 const Container = styled.div`
+
 position: absolute;
   margin: 0 auto;
 top: 70px;
@@ -23,7 +24,6 @@ export default function PersonForm({ handleadd }) {
 
   return (
     <Container>
-      
       <form action="" onSubmit={handleSubmit}>
         <input type="text" value={valeur} onChange={handleChange} />
         <input type="submit" />
