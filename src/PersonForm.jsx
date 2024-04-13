@@ -1,7 +1,6 @@
 import { useState } from "react";
 import styled from "styled-components";
 const Container = styled.div`
-
 position: absolute;
   margin: 0 auto;
 top: 70px;
